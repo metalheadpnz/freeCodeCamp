@@ -41,3 +41,12 @@ const FCC = "freeCodeCamp"; // Change this line
 let fact = "is cool!"; // Change this line
 fact = "is awesome!";
 console.log(FCC, fact); // Change this line
+
+//===
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
+
+//===
+// Constructing Strings with Variables
+// Only change code below this line
+const myName = "Andr";
+const myStr = 'My name is ' + myName +'and I am well!';
