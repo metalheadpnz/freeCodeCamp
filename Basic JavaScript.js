@@ -86,12 +86,27 @@ const lastName = "Lovelace";
 const lastLetterOfLastName = lastName[lastName.length-1]; // Change this line
 
 //==============================================================
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = "My " + myAdjective + " "+ myNoun + " can " + myVerb + " "+ myAdverb; // Change this line
+// Only change code above this line
 
 //==============================================================
+// Only change code below this line
+const myArray = ['string', 100500];
 
 //==============================================================
+// Only change code below this line
+const myArray = ["CyberPunk_2077",['RDR2']];
 
 //==============================================================
+//Access Array Data with Indexes
+const myArray = [50, 60, 70];
+let myData = myArray[0];
 
 //==============================================================
 
