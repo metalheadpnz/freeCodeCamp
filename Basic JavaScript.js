@@ -9,12 +9,12 @@ var b;
 var a;
 a = 7;
 var b;
-b=a;
+b = a;
 // Only change code below this line
 
 // Only change code below this line
-var a =5;
-var b =10;
+var a = 5;
+var b = 10;
 var c = "I am a";
 // Only change code above this line
 
@@ -49,7 +49,7 @@ const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
 // Constructing Strings with Variables
 // Only change code below this line
 const myName = "Andr";
-const myStr = 'My name is ' + myName +'and I am well!';
+const myStr = 'My name is ' + myName + 'and I am well!';
 
 //==============================================================
 //Use Bracket Notation to Find the First Character in a String
@@ -83,7 +83,7 @@ const thirdLetterOfLastName = lastName[2]; // Change this line
 const lastName = "Lovelace";
 
 // Only change code below this line
-const lastLetterOfLastName = lastName[lastName.length-1]; // Change this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
 
 //==============================================================
 const myNoun = "dog";
@@ -92,7 +92,7 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 
 // Only change code below this line
-const wordBlanks = "My " + myAdjective + " "+ myNoun + " can " + myVerb + " "+ myAdverb; // Change this line
+const wordBlanks = "My " + myAdjective + " " + myNoun + " can " + myVerb + " " + myAdverb; // Change this line
 // Only change code above this line
 
 //==============================================================
@@ -101,7 +101,7 @@ const myArray = ['string', 100500];
 
 //==============================================================
 // Only change code below this line
-const myArray = ["CyberPunk_2077",['RDR2']];
+const myArray = ["CyberPunk_2077", ['RDR2']];
 
 //==============================================================
 //Access Array Data with Indexes
@@ -112,7 +112,7 @@ let myData = myArray[0];
 //Modify Array Data With Indexes
 // Setup
 const myArray = [18, 64, 99];
-myArray[0]=45;
+myArray[0] = 45;
 
 
 //==============================================================
@@ -151,14 +151,19 @@ myArray.unshift(["Paul", 35]);
 
 //==============================================================
 const myList = [
-    ["snikers",100],
+    ["snikers", 100],
     ["mars", 500],
-    ['Karl',18],
-    ['Marks',32],
-    ['Marks',32]
+    ['Karl', 18],
+    ['Marks', 32],
+    ['Marks', 32]
 ];
-//==============================================================
 
+//==============================================================
+function reusableFunction() {
+    console.log('Hi World')
+}
+
+reusableFunction()
 //==============================================================
 
 //==============================================================
